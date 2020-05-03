@@ -1,4 +1,4 @@
-class ChangeDatatypeForBirthdate < ActiveRecord::Migration[6.0]
+class ChangeDatatypeForBirthdate < ActiveRecord::Migration[5.2]
   
   def change
     change_column :createstudents do |t|
