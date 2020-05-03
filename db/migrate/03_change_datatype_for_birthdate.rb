@@ -4,5 +4,6 @@ class ChangeDatatypeForBirthdate < ActiveRecord::Migration[6.0]
     change_column :createstudents do |t|
       t.datetime :birthdate
     end
+  end
 
 end
